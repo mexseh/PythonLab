@@ -13,5 +13,6 @@ This repository contains a collection of Python lab experiments, each in its own
 
 Each experiment folder contains:
 
-- `experimentX.py` – the Python program.
-- `README.md` – description with **Experiment Title**, **Aim**, **Algorithm**, and **Output**.
+- `exp.py` – the Python program.
+- `readme.md` – description with **Experiment Title**, **Aim**, **Algorithm**, and **Output**.
+
