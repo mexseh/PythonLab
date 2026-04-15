@@ -1,0 +1,61 @@
+## Experiment Title
+
+Experiment 7
+
+## Aim
+
+To write a program to demonstrate objects, classes, inheritance, and polymorphism in Python.
+
+## Algorithm
+
+1. Define a class `first` with variables `x` and `y`, and a method to perform arithmetic operations.
+2. Create an object of the class and call the method.
+3. Demonstrate **Single Inheritance** by creating class `A` and subclass `B`.
+4. Demonstrate **Multiple Inheritance** using classes `C`, `D`, and derived class `E`.
+5. Demonstrate **Multilevel Inheritance** using classes `F`, `G`, and `H`.
+6. Demonstrate **Hierarchical Inheritance** using classes `I`, `J`, and `K`.
+7. Demonstrate **Hybrid Inheritance** using classes `L`, `M`, `N`, and `O`.
+8. Create objects and call respective methods to show inheritance.
+9. Demonstrate **Polymorphism** using classes `Add` and `Multiply` with the same method name `calculate()`.
+10. Print outputs for each case.
+
+## Output
+
+Sample output:
+
+```text
+<------CLASS & OBJECT-------->
+x + y:  60
+y - x:  40
+x * y:  500
+x / y:  0.2
+
+<------------SINGLE INHERTANCE------------->
+This is parent class A
+This is child class B
+
+<------------MULTIPLE INHERTANCE------------->
+Class C: Hello
+Class D: Jain
+Class E: University
+
+<------------MULTILEVEL INHERTANCE------------->
+Class F
+Class G
+Class H
+
+<------------HIERARCHICAL INHERITANCE------------->
+Class I: x = 10
+Class J: x + y = 15
+Class I: x = 10
+Class K: x + z = 13
+
+<------------HYBRID INHERITANCE------------->
+Class L: x = 10
+Class M: y = 5
+Class N: z = 3
+Class O: x + y + z = 18
+
+<------------POLYMORPHISM------------->
+Add: 15
+Multiply: 50
