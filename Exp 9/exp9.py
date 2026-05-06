@@ -1,16 +1,22 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
-data = pd.DataFrame({
-    "names": ["Aman", "Riya", "Karan", "Sneha", "Arjun", "Neha", "Rohit", "Pooja", "Vikram", "Anjali"],
-    "age": [20, 21, 22, 20, 23, 21, 22, 20, 24, 23],
-    "marks": [85, 90, 78, 88, 92, 76, 81, 89, 95, 87],
-    "grades": ["A", "A+", "B", "A", "A+", "B", "B+", "A", "A+", "A"],
-    "cities": ["Delhi", "Mumbai", "Chennai", "Kolkata", "Pune", "Hyderabad", "Jaipur", "Goa", "Kochi", "Lucknow"],
-    "subjects": ["Math", "Science", "English", "History", "Physics", "Chemistry", "Biology", "Geo", "CS", "Economics"],
-    "hobbies": ["Reading", "Gaming", "Music", "Dance", "Sports", "Drawing", "Singing", "Travel", "Coding", "Photography"],
-    "devices": ["Phone", "Laptop", "Tablet", "PC", "Phone", "Laptop", "Tablet", "PC", "Phone", "Laptop"],
-    "food": ["Pizza", "Burger", "Pasta", "Rice", "Noodles", "Biryani", "Fries", "Sandwich", "Cake", "Ice Cream"],
-    "status": ["Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass"]
+# data
+SL = [101, 102, 103, 104, 105]
+Name = ["Bran", "Jamie", "Baalish", "Jon", "Arya"]
+
+# dataframe
+df = pd.DataFrame({
+    "SL": SL,
+    "Name": Name
 })
 
-print(data)
+print(df)
+
+# plotting
+plt.figure()
+plt.plot(Name, SL)
+plt.title("GoT")
+plt.xlabel("Name")
+plt.ylabel("Greatness")
+plt.show()
